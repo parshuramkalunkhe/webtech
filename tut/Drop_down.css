@@ -1,0 +1,56 @@
+/* img
+{
+    margin-top: 20px;
+    position: relative; 
+     position: absolute; 
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+} */
+
+a
+{
+    display: block;
+    text-decoration: none;
+    color: aqua;
+    padding: 20px;
+    
+}
+body
+{
+    margin: 0%;
+    padding: 0%;
+    /* background-color: black; */
+}
+nav
+{
+    background-color: blue;
+}
+#cont
+{
+    display: flex;
+    /* justify-content: space-between; */
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    
+}
+a:hover
+{
+    background-color: aqua;
+    color: aliceblue;
+}
+#menu
+{
+    list-style-type: none;
+    padding: 0%;
+    position: absolute;
+    display: none;
+}
+#Drop:hover #menu 
+{
+   display: block;
+   background-color: aqua;
+   
+}

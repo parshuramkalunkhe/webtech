@@ -1,0 +1,106 @@
+body
+{
+    margin: 0%;
+    padding: 0%;
+}
+nav
+{
+    padding: 0%;
+    background-color: blue;
+    width: 30%;
+    height: 100vh;
+    
+}
+a
+{
+    text-decoration: none;
+    color: aqua;
+}
+a:hover
+{
+    background-color: orange;
+    color: orangered;
+}
+#ho
+{
+    list-style-type: none;
+    /* padding: 0%; */
+    margin: 0%;
+    display: block;
+    font-size: 20px;
+   
+}
+#Veg
+{
+    top: 0%;
+    left: 100%;
+    list-style-type: none;
+    
+}
+#vi
+{
+    top: 0%;
+    left: 100%;
+    list-style-type: none;
+    background-color: green;
+    /* color: blue; */
+    display: none;
+    position: absolute;
+}
+#vi1
+{
+    list-style-type: none;
+   
+}
+#vi2
+{
+    list-style-type: none;
+    background-color: yellowgreen;
+    /* color: red; */
+    display: none;
+}
+#Veg:hover #vi
+{
+    list-style-type: none;
+    display: block;
+    background-color: tomato;
+}
+#vi1:hover #vi2
+{
+    display: block;
+    background-color: turquoise;
+}
+#lh
+{
+    /* background-color: indianred; */
+    
+}
+#l1
+{
+    list-style-type: none;
+    display: none;
+    background-color: indianred;
+    
+}
+#lh:hover #l1
+{
+    display: block;
+}
+#Di
+{
+    list-style-type: none;
+}
+#D1
+{
+    list-style-type: none;
+    display: none;
+}
+
+
+#Di:hover #D1
+{
+    display: block;
+    background-color: rgb(253, 6, 6);
+    
+}
+

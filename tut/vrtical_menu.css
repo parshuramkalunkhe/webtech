@@ -1,0 +1,157 @@
+/* body
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+nav
+{
+    background-color: aquamarine;
+    width: 20%;
+    height: 100vh;
+   
+}
+#con
+{
+    list-style-type: none;
+    background-color: blue;
+    margin: 0%;
+    padding: 0%;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+a:hover
+{
+   background-color: pink;
+   color: black;
+}
+#mi
+{
+    list-style-type: none;
+     margin: 0%; 
+     padding: 0%; 
+    background-color: azure;
+    color: black;
+    display: none;
+    position: relative;
+}
+#mob:hover #mi
+{
+    display: block;
+    background-color: antiquewhite;
+    color:red;
+}
+#ii
+{
+    list-style-type: none;
+       margin: 0%; 
+     padding: 0%; 
+    background-color: azure;
+    color: black;
+    display: none;
+    position: relative;
+}
+#ip:hover #ii
+{
+    display: block;
+    background-color: antiquewhite;
+    color:red;
+} */
+
+/* right drop down */
+
+body
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+nav
+{
+    background-color: aquamarine;
+    width: 20%;
+    height: 100vh;
+    list-style-type: none;
+   
+}
+#cont
+{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    background-color: red;
+}
+a
+{
+    text-decoration: none;
+    color: aquamarine;
+    padding: 20px;
+    display: block;
+    font-size: 20px;
+}
+a:hover
+{
+    background-color: greenyellow;
+    color: magenta;
+}
+#Drop
+{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+}
+#menu
+{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    background-color: blue;
+    position: absolute;
+    color: pink;
+    display: none;
+    top: 0%;
+    left: 100%;
+}
+#Drop
+{
+    position: relative;
+}
+#menu1
+{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    background-color: darksalmon;
+    position: relative;
+    display: none;
+}
+#Drop:hover #menu
+{
+    display: block;
+}
+#menu1
+{
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    background-color: blue;
+    position: absolute;
+    display: none;
+    top: 0%;
+    left: 100%;
+}
+#Drop1
+{
+   position: relative;
+}
+#Drop1:hover #menu1
+{
+    display: block;
+    padding: 20%;
+}

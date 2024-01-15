@@ -1,0 +1,74 @@
+
+body
+{
+    background-color: azure;
+    margin: 0px;
+    padding: 0%;
+}
+
+
+#con
+{
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: blue;
+
+    
+}
+a
+{
+    display: block;
+    text-decoration: none;
+    color: aqua;
+    padding: 20px;
+}
+a:hover
+{
+    background-color: antiquewhite;
+    color: blueviolet;
+}
+ul
+{
+    list-style-type: none;
+}
+#veg
+{
+    
+    list-style-type: none;
+    padding: 0px;
+    margin: 0%;
+    position: absolute;
+    display: none;
+}
+
+#vd:hover #veg
+{
+    display: block;
+    color: blanchedalmond;
+}
+#nonveg
+{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0%;
+    position: absolute;
+    display: none;
+
+}
+#nd:hover #nonveg
+{
+    display: block;
+    color: aquamarine;
+}
+#dr
+{
+    list-style-type: none;
+    padding: 0px;
+    position: absolute;
+    display: none;
+}
+#d:hover #dr
+{
+    display: block;
+    color: blue;
+}
