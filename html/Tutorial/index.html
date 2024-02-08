@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<!-- 
+DOCTYPE :-
+	1] Must required code in HTML document.
+	2] Instruct the web browser about what version HTML page is written in. 
+	3] Doctype refers to Document type definition. 
+-->
+<html> <!-- HTML :- It is root tag in the html document. -->
+
+<head>
+	<!-- HEAD :- It contents the information related to HTML document. It is palced between HTML tag and BODY tag. -->
+	<title>HTML Tutorial</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
+</head>
+
+<style>
+	body {
+		font-family: 'Poppins', sans-serif;
+		font-style: oblique;
+		width: 900px;
+		margin: auto;
+	}
+</style>
+
+<body>
+
+	<header>
+		<h1>HTML Tutorial</h1>
+	</header>
+
+	<main>
+		<p>
+			<strong>BODY :-</strong> The content which we want to display on the web page we must write inside the body
+			tag.
+		</p>
+
+		<p>
+			<strong>TAGS in HTML :-</strong> The HTML document is created using tags. with <tag> names to create a tag.
+		</p>
+
+		<p>
+			<strong>Types of TAG :-</strong>
+		</p>
+
+		<ul>
+			<li><strong>Paired tag :-</strong> It contain opening tag and closing tag.</li>
+			<li><strong>Unpaired tag :-</strong> It contains only opening tag or self closing tag.</li>
+			<li><strong>Elements in HTML :-</strong> It is combination of opening tag, closing tag & content.</li>
+		</ul>
+
+		<p>
+			<strong>Basic TAG in HTML :- </strong>
+		</p>
+
+
+		<p>
+			<strong>1] Heading Tag :-</strong> This tag's create Heading in the HTML document. All heading tag are
+			paired tag & block level elements. They are 6 Types of heading tag describe as below:
+		</p>
+
+		<ul>
+			<li><strong>h1 :</strong> 2em</li>
+			<li><strong>h2 :</strong> 1.5em</li>
+			<li><strong>h3 :</strong> 1.17emp</li>
+			<li><strong>h4 :</strong> 1.0em</li>
+			<li><strong>h5 :</strong> 0.83em</li>
+			<li><strong>h6 :</strong> 0.67em</li>
+		</ul>
+
+		<p><strong>NOTE :-</strong> 1em stands for equal to the current font size. It is a unit measurement.</p>
+
+		<p>
+			<strong>2] Paragraph tag &lt;p&gt; :-</strong> It is used to create a paragraph in webpage & it allows only
+			single space between the character. Line breaks are not allowed.
+		</p>
+
+		<p>
+			<strong>3] Pre formatted tag &lt;pre&gt; :-</strong> Pre formatted tag displays the content as it is written
+			inside the tag. Line breaks & extra spaces are allowed.
+		</p>
+
+		<p>
+			<strong>4] Div tag &lt;div&gt; :-</strong> Id defines the division & section of the document. It acts as a
+			container for block level container & Inline level elements. It is a block level element.
+		</p>
+
+		<p>
+			<strong>5] Span tag &lt;span&gt; :-</strong> It is a inline level element. It acts as a container for inline
+			level elements.
+		</p>
+
+		<p>
+			<strong>6] Image tag &lt;img&gt; :-</strong> It is used to insert the image into your webpage by default it
+			takes two attributes a) src & b) alt.
+		</p>
+
+		<ul>
+			<li><strong>a) :-</strong> It is the source that specifies the path of the image document that should be
+				display on a webpage.</li>
+			<li><strong>b) :-</strong> Alternative text for the image which is visible on the webpage if the image in
+				the src is failed to fetch the path.</li>
+			<ol>
+				<li><strong>Absolute path :-</strong> Absolute path is directly fetching the image from browser.</li>
+				<li><strong>Relative path :-</strong> Relative path is fetching the image from local folder with the
+					help of image/file name.</li>
+			</ol>
+		</ul>
+
+		<p>
+			<strong>NOTE :-</strong> Atrrbutes are special words used inside opening tag to control elements's
+			behaviour.
+		</p>
+
+		<p>
+			<strong>Formatting tags in HTML :-</strong>
+		</p>
+
+		<ol>
+			<li><strong>&lt;strong&gt; or &lt;b&gt; tag :-</strong> It will display the content in bold texts. If your are using strong tag in place of b tag it will improve the search engine optimization.</li>
+			<li><strong>&lt;em&gt; or &lt;i&gt; tag :-</strong> It will display the content in Italic font style.</li>
+			<li><strong>&lt;ims&gt; of &lt;u&gt; tag :-</strong> It will display the content in underline.</li>
+			<li><strong>&lt;mark&gt; tag :-</strong> It will display content with yellow highlighted bacground.</li>
+			<li><strong>&lt;q&gt; tag :-</strong> It will display the content with in the double quotes.</li>
+			<li><strong>&lt;del&gt; tag :-</strong> It will display the content with strike over the content.</li>
+			<li><strong>&lt;sup&gt; :-</strong> It will display the content just above with respect to the previous content.</li>
+			<li><strong>&lt;sub&gt; :-</strong> It will display the content just below with respect to the previous content.</li>
+			<li><strong>&lt;small&gt; tag :-</strong> It will display the content with smaller text.</li>
+		</ol>
+
+		<p>
+			<strong>Attributes in HTML :-</strong>
+		</p>
+
+		<ul> 
+			<li>Attributes provide some extra information about the HTML elements.</li>
+			<li>It must be present in the opening tag of the HTML elements.</li>
+			<li>It comes with attribute name = attribute value or only attribute name.</li>
+			<li>There are three types of attributes.</li>
+			<ol>
+				<li>Core Attribute.</li>
+				<li>Internationalization Attribute.</li>
+				<li>Elements Specific Attribute.</li>
+			</ol>
+
+			<strong>1. Core Attribute :-</strong>
+			<ul>
+				There are 4 core attributes in HTML :-
+				<li><strong>id :-</strong> The value of id attribute must be unique and it targets only the individual element.</li>
+				<li><strong>class :-</strong> We can pass the same value for multiple elements in HTML & the class attribute targets multiple elements.</li>
+				<li><strong>title :-</strong> The title attribute create the tooltip. Tooltip is a kind of popup which pops out when the cursor is placed on the targeted element.</li>
+				<li><strong>style :-</strong> The style attribute is used to give the style for the HTML element & it is also called as inline CSS, it gives the more priority.</li>
+			</ul>
+
+			<strong>2. Internationalization Attributes :-</strong>
+			<ul>
+				<li><strong>lang :-</strong> lang attributes defines the language of the content which is present inside the HTML element we have to pass the language code as a value to the lang attributes.</li>
+
+				<li><strong>dir :-</strong> dir attributes defines the direction of the content which is display on the webpage. It takes two value one ltr (Left-to-right text direction) & rtl (Right-to-left text direction). auto is the default value.</li>
+			</ul>
+
+			<strong>3. Elements Specific Attributes :-</strong>
+
+			<ul>
+				This Attributes are specific to the perticular element we cannot able to write this attribute for every HTML elements.
+		e.g., Contain two attributes. i = src & ii = alt &lt;img src="" alt=""&gt;
+			</ul>
+		</ul>
+
+		<p>
+			<strong>Anchor tag :-</strong> The anchor tag convert the hupertext into hyper link with the (href) attribute.
+		</p>
+
+		<p>
+			<strong>Target attributes :-</strong>
+			<p>Target = _blank : host the web page in the new tab.</p>
+			<p>Target = self :- host the web page in the same tab by defult the target value is self.</p>
+			<ol>
+				<li><strong>Hyper tex:-</strong> hyper is the content or text that is visible on the UI . hypr text can be creater by normal basic text's.</li>
+				<li><strong>Hyper link :-</strong> hyper link is the text's content that host other web pages on the website. hyper link is creater with the hepl of anchor tag with &lt;href&gt; attributes. Example:- &lt;a href=" "&gt; &lt;/a&gt;</li>
+			</ol>
+		</p>
+
+		<p>
+			<strong>List in HTML :-</strong> There are 4 types of list in html.
+		</p>
+
+		<ol>
+			<li><strong>Ordered List :-</strong> Ordered List start with &lt;ol&gt;. Each item listed with the tage &lt;li&gt;. We can use 3 attributes in ordered list.</li>
+			<ol type="i">
+				<li><strong>Type :-</strong> Default value is 1. It takes input as Number, Alphabets.</li>
+				<li><strong>Start :-</strong> The value of the start is number.</li>
+				<li><strong>Reversed :-</strong> It will reverse the order.</li>
+			</ol>
+
+			<li><strong>Unordered List :-</strong> Unordered List start with &lt;ul&gt;. Each item listed with tags &lt;li&gt;. It contains 1 attribute called type.</li>
+			<ol>
+				<li><strong>Type :-</strong> disc, square, circle. Default value is disc.</li>
+			</ol>
+
+			<li><strong>Description List :-</strong> Discription List start with &lt;dl&gt;. Each item listed with tags &lt;dt&gt; & &lt;dd&gt;. By default the description data appears with some tab space.</li>
+
+			<li><strong>Nested List :-</strong> List inside list.</li>
+		</ol>
+
+		<p>
+			<strong>marquee tag :-</strong> This tag creates the scrolling text or image in the HTML docuement. The default direction fo marquee is right to left.
+		</p>
+
+		<ol type="i">
+			Attributes in marquee tag :-
+			<li> <strong>Behaviour :-</strong> alternate(alt), Scrool, slide.</li>
+			<li> <strong>Direction :-</strong> It specify the direction of the elements. the values are :- left, right, up & down. By defualt the value will be left.</li>
+			<li> <strong>Height :-</strong> </li>
+			<li> <strong>Width :-</strong> </li>
+			<li> <strong>Scroll Amount :-</strong> It specify the speed of the content. It's default value is 6, It will not take the negative value.</li>
+			<li> <strong>Scroll Delay :-</strong> It also defines the speed of the content but the value is increased in the scroll delay. The speed of the content is reduced.</li>
+			<li> <strong>Loop :-</strong> It specifies the number of times the behavioural action is performed.</li>
+		</ol>
+
+		<p>
+			<strong>Semantic Tags in HTML :-</strong> This tag clearly describes the own meaning to the browser and the developer.
+		</p>
+
+		<p>
+			<strong>Table in HTML :-</strong> Table is used to structure the data in the form of rows & columns. Tables start with &lt;table&gt; tag.
+		</p>
+		<ol>
+			 Table data are inserted using.
+			 <li> <strong>&lt;tr&gt; :-</strong> It is used to insert the table row in table.</li>
+			 <li> <strong>&lt;th&gt; :-</strong> It is used to define the heading.</li>
+			 <li> <strong>&lt;td&gt; :-</strong> It is used to insert the data.</li>
+
+			 <ol>
+			 	Attributes in table:- 
+			 	<li> <strong>border :-</strong> It is used to give the border to the table.</li>
+			 	<li> <strong>cell padding :-</strong> It gives the space between the content & the border of the cell.</li>
+			 	<li> <strong>cell spacing :-</strong> It gives space between the adjusten border of the cell.</li>
+			 	<li> <strong>colspan :-</strong> It is used to merge two or more columns into a cell.</li>
+			 	<li> <strong>rowspan :-</strong> It is used to merge two or more rows into a cell.</li>
+			 </ol>
+		</ol>
+
+		<p>
+			<strong>forms :-</strong> HTML forms is used to get the data from user.
+			<li>In HTML forms are created using form tag.</li>
+			<li>Label created using label tag.</li>
+			<li>Input field and text box is created using input tag.</li>
+			<li>Form is semantic tag & it is a block level element but all the tags which is present inside form are inline level elements.</li>
+		</p>
+
+		<p>
+			<strong>Input Tag :-</strong> It is used to get the data from the user.
+		</p>
+		<p>
+			<strong>Label Tag :-</strong> It is used to tell the user about what data they should fill.
+		</p>
+
+		<p>
+			<strong>for & id attribute :-</strong> The value of for attribute in label tag & id attribute in input tag  it is used to link the label and corresponding input.
+		</p>
+
+		<p>
+			<strong>*name attribute :-</strong> It acts as a container for the value attribute.It holds the entered data. name attribute should have the same value in input type radio to make any one option to be selected. name attribute should have the same value in the input type checkbox also.
+		</p>
+
+		<p>
+			<strong>value attribute :-</strong> It is the must required attribute in the radio,checkbox & option tag.
+		</p>
+
+		<p>
+			<strong>form types :-</strong>
+			<ol>
+				<li>Input tag takes one attribute called type. It determines what type of data or what type of datatype to be entered in the below field.</li>
+				<li>The Type attribute take values such as:- button,checkbox,color,email,file,url,image,hidden,date,month,number,radio,range,password,reset,submit,search,tel(telephone),text,time.week</li>
+				<li><strong>Text area :-</strong> It is also used to take the data from the user but line breaks are allowed in the text area. </li>
+				<ol type="i">
+					Text area has 2 attributes :-
+					<li>Columns(cols).</li> 
+					<li>Rows(row).</li>			
+				</ol>
+				<li><strong>Button :-</strong> Button tag is used to create a button. It also take type attribute & we can pass the values such as submit,reset.</li>
+				<li><strong>Validation attribute :-</strong></li>
+				<ol>
+					<li><strong>Required :-</strong> It is used to make the input field mandatory.</li>
+					<li><strong>Disabled :-</strong> It is used to make the input field disable.</li>
+					<li> <strong>Placeholder :-</strong> It is used to give the finat text inside the input field.</li>
+				</ol>
+				<li><strong>Pattern attribute :-</strong> The input pattern attribute specifies a regular expression.That the input field is checked against,when the form is submitted.</li>
+			</ol>	
+		</p>
+
+		<p>
+			<strong>media tags in HTML :-</strong>
+			<ol>
+				<li><strong>audio tags :-</strong> It is used to embed sound content in your HTML document such as music and other audio stream.</li>
+				<ul>
+					<li>attribute of radio tags.</li>
+					<li>Its specific the audio control.</li>
+					<li><strong>Auto frame attribute :-</strong> its speficy that the audio will start playing as soon as it is ready.</li>
+					<li><strong>SRC :-</strong> its specify the Url of the audio file. </li>
+					<li><strong>Loop :-</strong> its specify the audio will start over again every time it is finished.</li>
+				</ul>
+				<li><strong>Video tag :-</strong> the tag is used to embed video content in as HTML document such as movie clip and other.</li>
+				<li><strong>iframe tag :-</strong> iframe is required to run webpage inside another web page it is takes attribute such as SRC ,Hight, wight ,and frame border.</li>
+			</ol>
+		</p>
+
+	</main>
+
+	<footer>
+		<p>@Parshuram Kalunkhe.</p>
+	</footer>
+
+</body>
+
+</html>

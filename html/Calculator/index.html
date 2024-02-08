@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<style type="text/css">
+
+	main {
+/*		max-width: 600px;*/
+		margin: auto;
+	}
+
+	input {
+		display: block;
+		border: none;
+		border-bottom: 1px solid blue;
+		margin: 1rem;
+		padding: .8rem;
+	}
+
+	input:focus {
+		outline: none;
+		background: lightcoral;
+		border: none;
+		transition: 300ms;
+		box-shadow: 1px 1px 8px black;
+	}
+
+	select, button {
+		display: block;
+		margin: 1rem;
+		border: none;
+		padding: .8rem;
+	}
+
+	select:focus {
+		outline: none;
+		background: lightgoldenrodyellow;
+		transition: 300ms;
+	}
+
+	button:hover{
+		background: lightseagreen;
+		transition: 300ms;
+		box-shadow: 1px 1px 8px black;
+	}
+
+	p {
+		padding: .8rem;
+		margin: 1rem;
+		background: lightgreen;
+		display: inline-block;
+	}
+</style>
+
+<body>
+	
+	<main>
+		<input  id="num1" />
+		<input  id="num2" />
+
+		<select id="operation" >
+			<option>+</option>
+			<option>-</option>
+			<option>*</option>
+			<option>/</option>
+			<option>%</option>
+		</select>
+
+		<button onclick="sum()">submit</button>
+
+		<p id="result">N</p>
+	</main>		
+
+	<script type="text/javascript">
+		
+		let num1 = document.getElementById("num1");
+		let num2 = document.getElementById("num2");
+		let op = document.getElementById('operation');
+			
+
+		function sum() {
+			
+			num1 = Number(num1.value);
+			num2 = Number(num2.value);
+			let res;
+			
+			switch(op.value){
+			case '+':
+				res = num1 + num2;
+				break;
+			case "-":
+				res = num1 - num2;
+				break;
+			case "*":
+				res = num1 * num2;
+				break;
+			case "/":
+				res = num1 / num2;
+				break;
+			case "%":
+				res = num1 % num2;
+			default:
+				res = num1 + num2;
+			}
+
+			let result = document.getElementById("result").innerHTML = res;
+			console.log(res);
+		}
+		
+	</script>
+</body>
+</html>

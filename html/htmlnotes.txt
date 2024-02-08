@@ -102,12 +102,16 @@
 		i]Type:-Default value is 1. It takes input as Number,Alphabets.
 		ii] Start:-The value of the start is number.
 		iii] It will reverse the order.
+
 2]Unordered List:- Unordered list start with<ul>.Each item listed with the tag <li>.It contents 1 attribute called type.
 			Type:- Disc,square,circle.Default vale is Disc.
+
 3]Description list:- Discription list start with <dl>.Each item listed with tags <dt> & <dd>.By default the description data appers with some 				tab space.
+
 4]Nested list:- List inside list.
 
 *marquee tag:- This tag creates the scrolling text or image in the html document.The default direction of marquee is right to left.
+
  Attributes in marquee tag:-i] Behaviour:- alternate(alt),Scrool,slide.
 			   ii] Direction:- It specify the direction of the elements. the values are:- Left,Right,Up & Down.By default the value will be left.
 			   ii] Height
@@ -155,9 +159,10 @@ iii]Text area:- It is also used to take the data from the user but line breaks a
              Text area has 2 attributes:- 
 			1]Columns(cols).
 			2]Rows(row).
-iv]Button:- Button tag is used to create a button. It also take type attribute & we can pass the values such as submit,reset.
+iv]Button:- Button tag is used00 to create a button. It also take type attribute & we can pass the values such as submit,reset.
 
-v]Validation attribute:- 1]Required:- It is used to make the input field mandatory.
+v]Validation attribute:- 
+1]Required:- It is used to make the input field mandatory.
 			2]Disabled:- It is used to make the input field disable.
 			3]Placeholder:- It is used to give the finat text inside the input field.
 vi]Pattern attribute:- The input pattern attribute specifies a regular expression.That the input field is checked against,when the form is submitted.
